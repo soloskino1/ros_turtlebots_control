@@ -1,0 +1,9 @@
+<launch>
+
+    <arg name="name" default = "turtle"/> <node pkg="turtlesim" type="turtlesim_node" name="$(arg name)"></node>
+
+    <node pkg="robot_pkg" type = "spawn.py" name = "spawn" respawn="false" output = "screen"></node>
+
+    <node pkg = "robot_pkg" type = "teleop.py" name = "teleop" respawn="false" output = "screen"></node>
+
+</launch>
