@@ -30,7 +30,7 @@ The package consists of the following files:
 
 \>>cd <ros\_workspace>/src
 
-\>>git clone https://github.com/<soloskino1>/robot\_pkg.git
+\>>git clone https://github.com/soloskino1/ros_turtlebots_control.git
 
 3. Build the package:
 
