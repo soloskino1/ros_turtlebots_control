@@ -1,4 +1,4 @@
-﻿## <a name="_2yi04gfqht5w"></a>**robot\_pkg ROS package ReadMe**
+﻿## <a name="_2yi04gfqht5w"></a>**ros_turtlebots_control package ReadMe**
 ## <a name="_b47vbfll1cm0"></a>**Overview**
 This package provides four ROS nodes for controlling the movement of three turtles in a turtlesim environment. The spawn.py spawns the turtle and create three turtles in the simulator. The goal.py node allows the user to move a turtle to a specified goal position by entering the turtle name and the x, and y coordinates of the goal. The teleop.py node enables the user to control the movement of one or all turtles through the keyboard by entering the turtle name and direction. The sweep.py moves the three turtles randomly until they sweep over the whole simulator while also attempting collision avoidance.
 
@@ -30,7 +30,7 @@ The package consists of the following files:
 
 \>>cd <ros\_workspace>/src
 
-\>>git clone https://github.com/<soloskino1>/robot\_pkg.git
+\>>git clone https://github.com/soloskino1/ros_turtlebots_control.git
 
 3. Build the package:
 
